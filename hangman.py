@@ -133,8 +133,8 @@ def display_hangman(tries):
 def main():
     word= get_word()
     play(word)
-    while input("Nochmals spielen? (J/N)").upper() == "J":
-        word = get_word
+    while upper (input("Nochmals spielen? (J/N)")) == "J":
+        word = get_word()
         play(word)
  
 name = raw_input("Wie lautet dein Name?")
@@ -143,3 +143,7 @@ print""
                   
 if __name__ == "__main__":
     main()
+    
+    
+
+#Falls du nicht weisst, von wem das ist, merk dir diesen Namen: Alex Fäh :-)
